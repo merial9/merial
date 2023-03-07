@@ -1,10 +1,9 @@
 .body_class{
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Cambria','Anonymous Pro', monospace;
     font-size: 14px;
     color: whitesmoke;
-    background: -webkit-radial-gradient(bottom , rgb(33, 25, 105), rgb(14, 14, 78)) fixed;
+    background: -webkit-radial-gradient(bottom , rgb(10, 21, 180), rgb(5, 10, 78)) fixed;
 }
-
 
 footer{
     color: rgb(177, 155, 255);
@@ -18,12 +17,19 @@ footer{
 
 .r-img{
     position: static;
-    margin-bottom: 5px;
-    border-radius: 6px;
-    border: 2px solid lightgray;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    border: 2px solid  rgb(34, 26, 106);
     
 }
 
+.about-me{
+    width:auto ,780px;
+    border: 2px solid gold;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 4px;"  
+}
 .lang{
     text-align: end
 }
