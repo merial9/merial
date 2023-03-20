@@ -1,8 +1,10 @@
 .body_class{
+    text-align: justify;
     font-family: 'Cambria','Anonymous Pro', monospace;
     font-size: 14px;
     color: whitesmoke;
     background: -webkit-radial-gradient(bottom , rgb(10, 21, 180), rgb(5, 10, 78)) fixed;
+    width: auto;
 }
 
 footer{
