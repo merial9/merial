@@ -2,7 +2,7 @@
 /*TEXT-DARK define a cor do texto*/
 .body_class{
     text-align: justify;
-    font-family: 'Cambria','Anonymous Pro', monospace;
+    font-family: 'Gentium','Anonymous Pro', monospace;
     font-size: 14px;
     background: -webkit-radial-gradient(bottom ,#f5f6f7, #d4d6d8) fixed;
     margin-right:auto;
