@@ -1,5 +1,7 @@
-# merial9.github.io
-personal_github
+# Github pessoal. 
+Arquivar alguns projetos e usar como vitrine para algumas habilidades qu possuo.
 
-## Objective
-  This location is too maintain a site where I can put multiple projects and update them, this site is basically focus on my carrer as a developer.
+## Alterações majoritárias  em 2023
+
+# Acabei perdendo acesso de outra conta Github que eu tinha... vinic9.github.io. 
+Todas as atualizações serão feitas neste aqui! O meu site principal.
