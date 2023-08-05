@@ -1,122 +1,62 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #101010;
+    border-top: goldenrod 1px solid;
+    border-radius: 20px;
+    color: snow;
 
-/*TEXT-DARK define a cor do texto*/
-.body_class{
-    text-align: justify;
-    font-family: 'Gentium','Anonymous Pro', monospace;
-    font-size: 14px;
-    background: -webkit-radial-gradient(bottom ,#f5f6f7, #d4d6d8) fixed;
-    margin-right:auto;
-    margin-left:auto;  
 }
 
-footer{
-    color:  #424046;
+h1 {
+    text-align: center;
+
 }
 
 
-
-.r-img{
-    position: static;
-    margin-bottom: 4px;
-    border-radius: 4px;
-    border: 2px solid  #ff0000;
-    
+html,
+body {
+    height: 99%;
+    overflow: hidden;
 }
 
-.about-me{
-    width:auto ,780px;
-    border: 2px solid #ff0000;
+
+a {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: goldenrod;
+
+    transition: .5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+}
+
+table {
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+td {
+
+    border: solid 1px grey;
+    text-align: center;
     padding: 4px;
-    margin: 2px;
-    border-radius: 4px;"  
-}
-.lang{
-    text-align: end
-}
-
-a:link{
-    color: #ff0000;
 
 }
 
-a:visited{
-    color: #000064;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
-
-a:hover{
-    color: #dddddd;
-    transition: 200ms ease;
-}
-
-#fade-in{
-    -webkit-animation-name:fade-in;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: ease;
-
-}
-
-@keyframes fade-in{
-    0%{
-        opacity: 0%;
-    }
-    100%{}
-}
-
-#img-anim{
-    -webkit-animation-name: img-anim;
-    -webkit-animation-duration: 1.5s;
-}
-@keyframes img-anim{
-    0%{
-        opacity: 0%;
-    }
-    80%{
-        opacity: -5%;
-    }
-    100%{
-
-    }
-}
-
-#open-up{
-    
-    -webkit-animation-name: open-up;
-    -webkit-animation-duration: 1.2s;
-
-}
-
-@keyframes open-up{
-    0%{
-        transform: translate(-100%)
-
-    }
-    55%{
-        transform: translate(1%)
-
-    }
-    100%{
-
-    }
-}
-
-#open-up2{
-    
-    -webkit-animation-name: open-up2;
-    -webkit-animation-duration: 1.2s;
-
-}
-
-@keyframes open-up2{
-    0%{
-        transform: translate(100%)
-
-    }
-    55%{
-        transform: translate(-1%)
-
-    }
-    100%{
-
-    }
-}
-
