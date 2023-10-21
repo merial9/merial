@@ -1,0 +1,34 @@
+body{
+    background-color:black;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+}
+img{
+    padding: auto;
+    max-width: 256px;
+    max-height: 192px;
+    border: double 4px black;
+
+
+}
+
+.center-div{
+    padding-top: 8%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+    
+}
+
+img:hover {
+    transform: scale(1.5) ;
+    filter: scale(1.0) nearest-neighbor;
+
+    transition: 5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+}
