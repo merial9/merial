@@ -1,0 +1,44 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #373737;
+    color: #f4f4f4;
+    text-align: justify;
+    word-spacing: 2%;
+    line-height: 104%;
+    margin-left: 24%;
+    margin-right: 24%;
+
+    border: #C0B283 1px solid;
+    border-top: none;
+    border-bottom: none;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+/*Colors : Charcoal #373737 ; Pale Gold #C0B283 ; SILK #DCD0C0 ; PAPER # F4F4F4*/
+
+h1,
+h2,
+h3 {
+    padding: 1%;
+    border: 1px solid #C0B283;
+    border-radius: 12px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+a {
+    color: #f4f4f4;
+}
+
+hr {
+    background-color: #C0B283;
+    border-radius: 2%;
+    height: 1px;
+}
+
+div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
