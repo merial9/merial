@@ -1,16 +1,20 @@
 body {
     background-color: #a80808;
     color: #373737;
-    text-align: center;
-    width: auto;
-    background-size: cover;
+    font-family: 'Georgia';
+    font-size: 28px;
+    text-align: Center;
+    word-spacing: 1%;
+    border-top: none;
+    border-bottom: none;
+    
 
 }
 
 
 h1 {
     color: #f4f4f4;
-    text-shadow: 2px 2px 5px rgba(20, 20, 20, 1.5);
+    text-shadow: 2px 2px 5px rgba(-15, 20, 20, 1.5);
 
 }
 
@@ -27,9 +31,11 @@ p {
 
 }
 
+
+
 .align {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 05%;
+    margin-right: 05%;
     text-align: justify;
 
 }
@@ -38,11 +44,12 @@ p {
     z-index: -1;
     position: absolute;
     top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
-    bottom: 6%;
-    border: 4px double #f4f4f4;
-    border-radius: 0.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+    border: 1.4vw double #f4f4f4;
+    border-radius: 0.5vw;
     border-top: none;
     border-bottom: none;
 
@@ -51,3 +58,4 @@ p {
 
 
 }
+
