@@ -2,7 +2,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: #373737;
     border-top: #c0b283 1px solid;
-    border-radius: 20px;
+    border-radius: 2vw;
     color: #f4f4f4;
 
 }
@@ -19,7 +19,7 @@ body {
 
 .nav {
     border: #c0b283 solid 1px;
-    border-radius: 20px;
+    border-radius: 2vw;
     align-content: center;
     text-align: center;
     word-spacing: 20px;

@@ -22,7 +22,6 @@ h1 {
 p {
     text-shadow: 0.1vw 0.1vw 0.5vw rgba(100, 50, 0, 0.5);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 200;
 
 }
 
@@ -41,8 +40,8 @@ p {
     z-index: -1;
     position: absolute;
     margin-bottom: auto;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 2vw;
 
     border: 6px double #a80808;
