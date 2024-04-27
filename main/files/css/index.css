@@ -9,8 +9,13 @@ body {
 
 /*Colors : Charcoal #373737 ; Pale Gold #C0B283 ; SILK #DCD0C0 ; PAPER # F4F4F4*/
 
+img{
+    margin-right: 37.7em;
+    margin-left: 37.7em;
+    margin-bottom: -10%;
+    width: 128px;
 
-
+}
 
 .nav {
 
