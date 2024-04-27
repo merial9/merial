@@ -1,29 +1,30 @@
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #373737;
-    border-top: #c0b283 1px solid;
-    border-radius: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, #373737 25%, transparent 25%), linear-gradient(315deg, #373737 25%, transparent 25%),linear-gradient(45deg, transparent 24%,#303030 25%, #303030 45%, transparent 45%), linear-gradient(315deg, transparent 24%,#303030 25%, #303030 45%, transparent 45%);
+    background-size: 3em 3em;
+    background-color: #373737;
     color: #f4f4f4;
 
 }
 
 /*Colors : Charcoal #373737 ; Pale Gold #C0B283 ; SILK #DCD0C0 ; PAPER # F4F4F4*/
 
-.banner {
-    margin-left: 24%;
-    margin-right: auto;
-    background-size: contain;
-    max-width: 50%;
 
-}
+
 
 .nav {
+
+    word-spacing: 0.5em;
+
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0.5vh;
+ 
     border: #c0b283 solid 1px;
     border-radius: 2vw;
     align-content: center;
     text-align: center;
-    word-spacing: 20px;
-
+  
     
 }
 
@@ -36,6 +37,10 @@ body {
 
 h1,
 hr {
+
+    letter-spacing: 0.5em;
+    margin-top: 12%;
+    padding: 0.5vh;
     text-align: center;
     color: #f4f4f4;
 
