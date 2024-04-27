@@ -1,8 +1,10 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: #373737;
+
+    background: linear-gradient(45deg, #2f2555 25%, transparent 25%);
+    background-color: #2f3e5e;
     color: #f4f4f4;
-    text-align:left;
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
 
@@ -16,11 +18,12 @@ body {
 
 /*Colors : Charcoal #373737 ; Pale Gold #C0B283 ; SILK #DCD0C0 ; PAPER # F4F4F4*/
 
-h1{
+h1 {
     padding: 1%;
     text-align: center;
     color: #f4f4f4;
 }
+
 h2,
 h3 {
     padding: 1%;
