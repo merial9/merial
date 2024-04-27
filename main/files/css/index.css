@@ -10,6 +10,8 @@ body {
 /*Colors : Charcoal #373737 ; Pale Gold #C0B283 ; SILK #DCD0C0 ; PAPER # F4F4F4*/
 
 img{
+
+    
     margin-right: 37.7em;
     margin-left: 37.7em;
     margin-bottom: -10%;
@@ -18,19 +20,18 @@ img{
 }
 
 .nav {
+    border: #c0b283 solid 1px;
+    border-radius: 2vw;
 
-    word-spacing: 0.5em;
 
     margin-left: 20%;
     margin-right: 20%;
     padding: 0.5vh;
  
-    border: #c0b283 solid 1px;
-    border-radius: 2vw;
-    align-content: center;
-    text-align: center;
-  
-    
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+
 }
 
 

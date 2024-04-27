@@ -8,9 +8,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 
-    border: #C0B283 .2vw solid;
-    border-top: none;
-    border-bottom: none;
+
     padding-left: 2%;
     padding-right: 2%;
 
@@ -34,7 +32,7 @@ h3 {
 }
 
 a {
-    color: lime;
+    color: rgb(235, 255, 123);
 }
 
 hr {
@@ -47,4 +45,10 @@ hr {
 div {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.BlogCentral{
+
+display: flex;
+flex-direction: row;
+justify-content: center;            
 }
