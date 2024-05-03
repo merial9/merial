@@ -6,11 +6,13 @@
 .fundo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
     color: snow;
-    background-color: rgb(8, 8, 58);
+
+    height: 700px;
+    background-image: radial-gradient(#010634, black);
+
 }
 
-img{
-    height: 20%;
+img {
     top: 1vw;
     transform: translate(405%, 5%);
 }
@@ -19,11 +21,11 @@ img{
     position: absolute;
     background-color: snow;
     left: 50%;
-    top: 5vw;
     transform: translate(-50%, 50%);
 
     border-radius: 0.2em;
     padding: 0.5em;
+    top: -20%;
 
 }
 
@@ -32,7 +34,7 @@ img{
     background-color: white;
     width: 2em;
     height: 2em;
-    padding: 0.2em;
+    padding: 2em;
     font-size: 20px;
     cursor: pointer;
     border-radius: 0.1em;
@@ -45,12 +47,14 @@ img{
     background-color: darkgray;
 }
 
-h1{text-align: center;
-color: rgb(255, 204, 75);
-font-weight: 200;
-text-shadow: black  .1vh .2vh 0px ;}
+h1 {
+    text-align: center;
+    color: rgb(255, 204, 75);
+    font-weight: 200;
+    text-shadow: black .1vh .2vh 0px;
+}
 
-#resultado{
+#resultado {
     background-color: snow;
     color: black;
 
