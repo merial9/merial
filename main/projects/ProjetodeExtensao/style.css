@@ -9,6 +9,7 @@
 
     height: 700px;
     background-image: radial-gradient(#010634, black);
+    background-size: cover;
 
 }
 
