@@ -6,9 +6,7 @@
 .fundo {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
     color: snow;
-
-    height: 54vw;
-    background-color: blue;
+    background-color: rgb(8, 8, 58);
 }
 
 img{
