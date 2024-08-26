@@ -13,13 +13,9 @@ body {
 /*Colors : Charcoal #373737 ; Pale Gold #C0B283 ; SILK #DCD0C0 ; PAPER # F4F4F4*/
 
 h1 {
-    padding: 1%;
-    text-align: center;
-    color: purple;
 
-    border-radius: .6vw;
-    border-right: solid purple .4vw;
-    border-left: solid purple .4vw;
+    left: 2vw;
+    position: relative;
 
 }
 
@@ -31,7 +27,6 @@ h3 {
 }
 
 h4 {
-
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -42,32 +37,24 @@ h4 {
 
 a {
     text-decoration: none;
+    color: blue;
 }
 
-@keyframes a {
-    0% {
-        font-weight: normal;
-    }
-
-    100% {
-        font-weight: bold;
-    }
+article{
+    border: 1px solid purple;
+    border-radius: 6px;
+    padding: 1vw;
 }
-
 
 video {
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
 }
-
-
-div {
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 
 ul {
     list-style-type: none;
@@ -80,10 +67,11 @@ table {
     justify-content: space-evenly;
     flex-wrap: wrap;
 
+
     margin-left: 8vw;
     margin-right: 8vw;
-    border: .2vw solid purple;
-    border-radius: .6vw;
+    border: 1px solid purple;
+    border-radius: 6px;
 }
 
 footer {
@@ -91,6 +79,15 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    background-color: purple;
+
+    background-color: orangered;
+
+    color: #f4f4f4;
     text-align: center;
+}
+
+.main{
+    position: fixed;
+    top: 50%;
+    bottom: 0%;
 }
