@@ -1,16 +1,7 @@
-/* start light mode styling */
-:root {
-    --text: darkslategrey;
-    --border: lightgrey;
-    --accent: teal;
-    --bg: #dce3e1;
-    --gradientTop: white;
-    --gradientBottom: rgb(240, 248, 255, .8);
-}
-header {
-    background: url('***light mode banner image***');
-}
-/* end light mode styling */
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
 
 
 /* start dark mode styling */
@@ -29,6 +20,11 @@ header {
     }
 }
 /* end dark mode styling */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 
 * { 
@@ -53,7 +49,7 @@ margin: 5vw auto 12px auto;
 border: 6px ridge var(--border);
 outline: 3px solid var(--gradientTop);
 outline-offset: 4px;
-border-radius: 10px;
+border-radius: 2px;
 display: flex;
 flex-wrap: wrap;
 padding: 5px;
@@ -68,7 +64,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, var(
 .large { flex: 1 1 82%; }
 .full { flex: 1 1 100%; }
 .half { flex: 1 1 49%; }
-
+.img{border-radius: 6%;}
 
 header {
 background-size: cover;
@@ -76,7 +72,7 @@ background-position: center;
 width: 100%;
 height: 152px; /* change banner height here*/
 border: 2px ridge var(--border);
-border-radius: 5px;
+border-radius: 2px;
 position: relative;
 }
 header span {
@@ -96,7 +92,7 @@ color: var(--gradientTop);
 
 nav {
 border: 2px ridge var(--border);
-border-radius: 5px;
+border-radius: 2px;
 padding: 5px;
 background: linear-gradient(var(--gradientTop),var(--gradientBottom));
 }
@@ -109,7 +105,7 @@ nav a {
 display: block;
 margin: 5px;
 background: linear-gradient(to right,var(--bg),var(--gradientBottom));
-border-radius: 5px;
+border-radius: 2px;
 padding: 2px 7px;
 text-decoration: none;
 }
@@ -125,13 +121,13 @@ div.small > img {
 display: block;
 margin: 5px auto;
 border:2px ridge var(--border);
-border-radius: 5px;
+border-radius: 2px;
 }
 
 
 section {
 border: 2px ridge var(--border);
-border-radius: 5px;
+border-radius: 2px;
 background: linear-gradient(var(--gradientTop),var(--gradientBottom));
 padding: 5px;
 }
